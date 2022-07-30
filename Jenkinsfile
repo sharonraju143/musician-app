@@ -16,7 +16,7 @@ sh 'docker build -t sharonraju143/musician-apps123 .'
         
         stage('running the container') {
             steps {
-sh 'docker run -dt -p 8090:8090 sharonraju143/musician-apps123'
+sh 'docker run -dt -p 3001:3001 sharonraju143/musician-apps123'
             }
         }
     }
